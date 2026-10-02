@@ -16,7 +16,7 @@ const FunctionalInput = ({ name }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setTodos((todo) => [...todo, inputVal]);
-    setInputVal('');
+    setInputVal('add new todo');
   };
 
   return (
